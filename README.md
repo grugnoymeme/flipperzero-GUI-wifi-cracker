@@ -1,7 +1,7 @@
 # flipperzero-GUI-WiFi-Grabber
 Would you like to be able to extract WPA/WPA2 handshakes from FlipperZero's captured .pcap files, and analyze them with hashcat, and find out passwords JUST IN ONE CLICK?
 
-This is the GUI (Graphic User Interface) version of my other script and repo [`flipperzero-wifi-password-grabber`](https://github.com/grugnoymeme/flipperzero-wifi-password-grabber), i just wanted to make the process easyest as possible, and this is the result.
+This is the GUI (Graphic User Interface) version of my other script and repo [`flipperzero-CLI-wifi-grabber`](https://github.com/grugnoymeme/flipperzero-CLI-wifi-grabber), i just wanted to make the process easyest as possible, and this is the result.
 
 ---
 ## Extarcion of .pcap file.
