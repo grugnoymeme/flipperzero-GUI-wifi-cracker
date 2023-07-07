@@ -7,9 +7,12 @@ import webbrowser
 def select_file():
     file_path = filedialog.askopenfilename(filetypes=[("PCAP Files", "*.pcap *.cap *.pcapng")])
     if file_path:
-        file_entry.delete(0, tk.END)
-        file_entry.insert(0, file_path)
-        grab_button.config(state=tk.NORMAL)
+        if file_path.endswith((".pcap", ".cap", ".pcapng")):
+            file_entry.delete(0, tk.END)
+            file_entry.insert(0, file_path)
+            grab_button.config(state=tk.NORMAL)
+        else:
+            tk.messagebox.showerror("Format Error", "Invalid file format. Please select a .pcap, .cap, or .pcapng file.")
 
 def select_wordlist():
     wordlist_path = filedialog.askopenfilename(filetypes=[("Text Files", "*.txt")])
