@@ -3,6 +3,14 @@ Would you like to be able to extract WPA/WPA2 handshakes from FlipperZero's capt
 
 This is the GUI (Graphic User Interface) version of my other script and repo [`flipperzero-CLI-wifi-cracker`](https://github.com/grugnoymeme/flipperzero-CLI-wifi-cracker), i just wanted to make the process easyest as possible, and this is the result.
 
+```
+BEFORE RUNNING THE SCRIPT:
+
+cd dictionary/brutefoce-attack
+
+pip install -r requirements.txt
+```      
+
 ---
 ## Extarcion of .pcap file.
 
