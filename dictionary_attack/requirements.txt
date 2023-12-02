@@ -1,4 +1,2 @@
 tk
-subprocess.run
-os
 webbrowser
