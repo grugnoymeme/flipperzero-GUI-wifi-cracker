@@ -1,6 +1,4 @@
 tk
-subprocess.run
-os
 webbrowser
 string
 itertools
