@@ -1,11 +1,12 @@
 # (flipperzero)-GUI-wifi-cracker
 Would you like to be able to extract WPA/WPA2 handshakes from FlipperZero's captured .pcap files, and analyze them with hashcat, and find out passwords JUST IN ONE CLICK?
 
-This is the GUI (Graphic User Interface) version of my other script and repo [`flipperzero-CLI-wifi-cracker`](https://github.com/grugnoymeme/flipperzero-CLI-wifi-cracker), i just wanted to make the process easyest as possible, and this is the result.
+This is the GUI (Graphic User Interface) version of my other script and repo [`flipperzero-CLI-wifi-cracker`](https://github.com/grugnoymeme/flipperzero-CLI-wifi-cracker), i just wanted to make the process easyest as possible, and this is the result.  
+         
+
+## BEFORE RUNNING THE SCRIPT:
 
 ```
-BEFORE RUNNING THE SCRIPT:
-
 cd dictionary/brutefoce-attack
 
 pip install -r requirements.txt
